@@ -1,0 +1,6 @@
+Visual Studio Code has integrated source control management (SCM) and includes Git support out-of-the-box. Many other source control providers are available through extensions on the Visual Studio Marketplace.
+
+With GitHub Copilot in VS Code, you can get suggestions for commit messages, pull requests, and review code changes before committing them. Learn more about GitHub Copilot in VS Code.
+
+Tip
+If you don't have a Copilot subscription yet, use Copilot for free by signing up for the Copilot Free plan. You'll get a monthly limit of completions and chat interactions.
