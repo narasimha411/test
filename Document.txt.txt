@@ -1,0 +1,130 @@
+to set your account's default identity.
+PS C:\Users\Sabik\Desktop\git> git remote add origin narasimha411
+PS C:\Users\Sabik\Desktop\git> git remote add origin https://github.com/narasimha411/simha.git
+PS C:\Users\Sabik\Desktop\git> git remote -v
+origin  narasimha411 (fetch)
+origin  narasimha411 (push)
+PS C:\Users\Sabik\Desktop\git> git remote add origin https://github.com/narasimha411/simha.git
+error: remote origin already exists.
+PS C:\Users\Sabik\Desktop\git> git remote remove origin
+PS C:\Users\Sabik\Desktop\git> git remote add origin https://github.com/narasimha411/simha.git
+PS C:\Users\Sabik\Desktop\git> git push -u origin master
+error: failed to push some refs to 'https://github.com/narasimha411/simha.git'
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+To have this happen automatically for branches without a tracking
+
+PS C:\Users\Sabik\Desktop\git> git origin master
+git: 'origin' is not a git command. See 'git --help'.
+PS C:\Users\Sabik\Desktop\git> git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/narasimha411/simha.git'
+PS C:\Users\Sabik\Desktop\git> git branch -M master
+PS C:\Users\Sabik\Desktop\git> git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/narasimha411/simha.git'
+PS C:\Users\Sabik\Desktop\git> git status
+On branch master
+
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   New Text Document.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   New Text Document.txt
+
+PS C:\Users\Sabik\Desktop\git> git commit -m"modi"
+Author identity unknown
+
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+fatal: unable to auto-detect email address (got 'Sabik@DESKTOP-A5FAPR9.(none)')
+PS C:\Users\Sabik\Desktop\git> venkatanarasimha703@gmail.com
+venkatanarasimha703@gmail.com : The term 'venkatanarasimha703@gmail.com' is not recognized as the name of a cmdlet, function, script file,  
+or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ venkatanarasimha703@gmail.com
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (venkatanarasimha703@gmail.com:String) [], CommandNotFoundException
+ 
+PS C:\Users\Sabik\Desktop\git> narasimha411
+narasimha411 : The term 'narasimha411' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the     
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ narasimha411
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (narasimha411:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\Sabik\Desktop\git> git status
+On branch master
+
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   New Text Document.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   New Text Document.txt
+
+PS C:\Users\Sabik\Desktop\git> git status
+On branch master
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   New Text Document.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   New Text Document.txt
+PS C:\Users\Sabik\Desktop\git> git add .
+PS C:\Users\Sabik\Desktop\git> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   New Text Document.txt
+
+PS C:\Users\Sabik\Desktop\git> git commit -m"modi"
+Author identity unknown
+
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Sabik@DESKTOP-A5FAPR9.(none)')
+PS C:\Users\Sabik\Desktop\git> git config --global user.email"venkatanarasimha703@gmail.com"
+PS C:\Users\Sabik\Desktop\git> git config --global user.name"narasimha411"
+PS C:\Users\Sabik\Desktop\git> git commit -m"modii"
+Author identity unknown
+
+
+  git config --global user.name "Your Name"
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Sabik@DESKTOP-A5FAPR9.(none)')
+PS C:\Users\Sabik\Desktop\git> git config --global user .email"venkatanarasimha703@gmail.com"
+error: key does not contain a section: user
+PS C:\Users\Sabik\Desktop\git> git config --global user.email "venkatanarasimha703@gmail.com"
+PS C:\Users\Sabik\Desktop\git> git config --global user.name "narasimha411"
+PS C:\Users\Sabik\Desktop\git> git status
+On branch master
