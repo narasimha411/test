@@ -1,4 +1,4 @@
-to set your account's default identity.
+ to set your account's default identity.
 PS C:\Users\Sabik\Desktop\git> git remote add origin narasimha411
 PS C:\Users\Sabik\Desktop\git> git remote add origin https://github.com/narasimha411/simha.git
 PS C:\Users\Sabik\Desktop\git> git remote -v
@@ -18,7 +18,7 @@ To have this happen automatically for branches without a tracking
 PS C:\Users\Sabik\Desktop\git> git origin master
 git: 'origin' is not a git command. See 'git --help'.
 PS C:\Users\Sabik\Desktop\git> git push -u origin master
-error: src refspec master does not match any
+error: src refspec master does not match any any
 error: failed to push some refs to 'https://github.com/narasimha411/simha.git'
 PS C:\Users\Sabik\Desktop\git> git branch -M master
 PS C:\Users\Sabik\Desktop\git> git push -u origin master
