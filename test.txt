@@ -1,1 +1,32 @@
 GitHub is a proprietary developer platform that allows developers to create, store, manage, and share their code. It uses Git to provide distributed version control and GitHub itself provides access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.
+GitHub is a proprietary developer platform that allows developers to create, store, manage, and share their code. It uses Git to provide distributed version control and GitHub itself provides access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.
+PS C:\Users\Sabik\Desktop\git clone\clone\test> git init
+Reinitialized existing Git repository in C:/Users/Sabik/Desktop/git clone/clone/test/.git/
+On branch master
+
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+s://github.com/narasimha411/test.git
+error: remote origin already exists.
+PS C:\Users\Sabik\Desktop\git clone\clone\test> git branch
+* master
+PS C:\Users\Sabik\Desktop\git clone\clone\test> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+PS C:\Users\Sabik\Desktop\git clone\clone\test> git cimmit -m"pull"       
+git: 'cimmit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+PS C:\Users\Sabik\Desktop\git clone\clone\test> git commit -m"pull"       
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+PS C:\Users\Sabik\Desktop\git clone\clone\test> git push -u origin master 
+branch 'master' set up to track 'origin/master'.
+Everything up-to-date
+PS C:\Users\Sabik\Desktop\git clone\clone\test> 
