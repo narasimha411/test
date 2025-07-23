@@ -18,6 +18,7 @@ Your branch is up to date with 'origin/master'.
 
 PS C:\Users\Sabik\Desktop\git clone\clone\test> git cimmit -m"pull"       
 git: 'cimmit' is not a git command. See 'git --help'.
+hi guys !!! today i just heard about the tool called git and the next moment i just googled it and i find github so i opened an account in it but after entering into it i couldn't understand anything so my dear friends can someone pls explain what is it in simple, understandable words
 
 The most similar command is
         commit
@@ -29,4 +30,4 @@ nothing to commit, working tree clean
 PS C:\Users\Sabik\Desktop\git clone\clone\test> git push -u origin master 
 branch 'master' set up to track 'origin/master'.
 Everything up-to-date
-PS C:\Users\Sabik\Desktop\git clone\clone\test> 
+PS C:\Users\Sabik\Desktop\git clone\clone\test> hi guys !!! today i just heard about the tool called git and the next moment i just googled it and i find github so i opened an account in it but after entering into it i couldn't understand anything so my dear friends can someone pls explain what is it in simple, understandable words
