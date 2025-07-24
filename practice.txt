@@ -62,3 +62,11 @@ Git is a version control system for code
 GitHub is a cloud service for storing GitHub repositories
 
 GitHub is a place where software developers store their code so they can a) have a backup and b) share it with other developers.
+GitHub is a proprietary developer platform that allows developers to create, store, manage, and share their code. It uses Git to provide distributed version control and GitHub itself provides access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.
+GitHub is a proprietary developer platform that allows developers to create, store, manage, and share their code. It uses Git to provide distributed version control and GitHub itself provides access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.
+PS C:\Users\Sabik\Desktop\git clone\clone\test> git init
+Reinitialized existing Git repository in C:/Users/Sabik/Desktop/git clone/clone/test/.git/
+On branch master
+
+On branch master
+Your branch is up to date with 'origin/master'.
