@@ -4,3 +4,16 @@ With GitHub Copilot in VS Code, you can get suggestions for commit messages, pul
 
 Tip
 If you don't have a Copilot subscription yet, use Copilot for free by signing up for the Copilot Free plan. You'll get a monthly limit of completions and chat interactions.
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+s://github.com/narasimha411/test.git
+error: remote origin already exists.
+PS C:\Users\Sabik\Desktop\git clone\clone\test> git branch
+* master
+PS C:\Users\Sabik\Desktop\git clone\clone\test> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+PS C:\Users\Sabik\Desktop\git clone\clone\test> git cimmit -m"pull"       
